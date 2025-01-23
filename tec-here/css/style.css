@@ -1,0 +1,205 @@
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/*----comeco-homepage-principal--------*/
+body{
+    background-color: white;
+}
+ a img{
+    width: 20%;
+ }
+
+h3{
+    font-size: 16px;
+}
+p{
+    color: #ff6600;
+}
+.container{
+    width: 100vw;
+    height: 60vh;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.btn{
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+}
+.btn.animate-btn{
+    animation: animate-outline 1s ease-out infinite;
+}
+ul{
+    list-style: none;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+
+    display: block;
+    padding: 0.5rem;
+    background-color: transparent;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5;
+}
+li a{
+    text-decoration: none;
+}
+li ul{
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+}
+li ul li{
+    clear: both;
+    width: 100%;
+}
+ul li:hover, ul li :focus-within {
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s
+}
+a:hover{
+    color: #ccc;
+}
+ul li:hover>ul,
+ul li:focus-within>ul,
+ul li ul:hover,
+ul li ul:focus{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+.btn:hover{
+    background-color: #a74f15;
+}
+@keyframes animate-outline {
+    from{
+        outline: 0px solid #fc6500;
+    }
+    to{
+        outline: 10px solid #a74f1550;
+    }
+}
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav a{
+    color: white;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+}
+nav ul a:not(.btn)::after{
+    content:"";
+    background-color: #ff6600;
+    height: 3px;
+    width:0%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+nav ul a:hover::after{
+    width: 100%;
+}
+.banner{
+    display: flex;
+
+}
+.banner .banner-text{
+    margin-top:8%;
+    margin-left: 0;
+    text-align: left;
+    padding: 0 90px;
+}
+.banner .banner-text h1{
+    font-size: 50px;
+    color: white;
+}
+.banner .banner-text p{
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+}
+/*----fim homepage-principal--------*/
+/*----frequencia--------*/
+.faca-mais .container{
+    display: flex;
+    align-items: center;
+}
+.faca-mais .faca-mais-text{
+    width: 50%;
+    padding: 0 48px;
+}
+.faca-mais .faca-mais-text h3{
+    font-size: 56px;
+}
+.faca-mais .faca-mais-text p{
+    margin: 3px 0 10px 0;
+}
+.facaa-mais .faca-mais-img{
+    width: 100%;
+    height: auto;
+}
+/*---- fim-frequencia--------*/
+.footer .container{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #ff6600;
+}
+.footer .container p{
+    color: white;
+}
+/*-------------sobrenos-----------------*/
+.container .conteudo{
+    background-color: #ffffff;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+section h3{
+    color: #ff6600;
+    padding: 5px;
+    border-radius: 4px;
+    justify-content: center;
+}
+section p{
+    align-items: center;
+    color:black;
+}
