@@ -1,0 +1,19 @@
+.faca-mais .container{
+    display: flex;
+    align-items: center;
+}
+.faca-mais .faca-mais-text{
+    width: 50%;
+    padding: 0 48px;
+}
+.faca-mais .faca-mais-text h3{
+    font-size: 56px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.faca-mais .faca-mais-text p{
+    margin: 3px 0 10px 0;
+}
+.facaa-mais .faca-mais-img{
+    width: 100%;
+    height: auto;
+}

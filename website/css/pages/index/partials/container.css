@@ -1,0 +1,24 @@
+.container{
+    width: 100vw;
+    height: 60vh;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.footer .container{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #ff6600;
+}
+.footer .container p{
+    color: white;
+}
+.container .conteudo{
+    background-color: #ffffff;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
