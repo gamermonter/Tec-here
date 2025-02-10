@@ -1,0 +1,9 @@
+/* normaliza o css do site para todos os navegadores*/
+*{
+    padding: 0;
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}

@@ -1,0 +1,25 @@
+.banner{
+    display: flex;
+
+}
+.banner .banner-text{
+    margin-top:8%;
+    margin-left: 0;
+    text-align: left;
+    padding: 0 90px;
+}
+.banner .banner-text h1{
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+}
+.banner .banner-text a{
+    font-size: 20px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.banner .banner-text p{
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+}
