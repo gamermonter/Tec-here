@@ -1,0 +1,13 @@
+#arquivos de configuração
+/output/
+/myenv/
+/env/
+
+#arquivos temporários e de backup
+*tmp
+*.bak
+*.swp
+*swo
+
+#arquivos de log
+/vendor/
